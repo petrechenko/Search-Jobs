@@ -8,9 +8,8 @@ through the same process every time.
 You are welcome to check-out already finished website here: https://job-search-apetrech.herokuapp.com
 
 If you want to set up the app working with your specific arguments, you would need to go through the process:
-
-1.Install python and virtual environment pip install virtualenv
-2.Set up your virtual environment virtualenv venv and activate it
-3.Install your dependencies pip install -r /path/to/requirements.txt
-4.Run the application on your local machine python app.py and open in the browser the link from the description (on my computer it was http://localhost:5000/)
+1.Install [python](https://realpython.com/installing-python/) and virtual environment `pip install virtualenv`
+2.Set up your virtual environment `virtualenv venv` and activate it
+3.Install your dependencies `pip install -r /path/to/requirements.txt`
+4.Run the application on your local machine `python app.py` and open in the browser the link from the description (on my computer it was http://localhost:5000/)
 5.Change the beginning of app.py however you want
