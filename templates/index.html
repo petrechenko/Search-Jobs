@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block main %}
+  <div class="result">
+    {%for title in titles%}
+      <h6><a href="{{title[1]}}" target="_blank">{{title[0]}}</a></h6>
+      <p class="town">{{title[2]}}</p>
+      <p class="companyName">{{title[3]}}</p>
+      <p>{{title[4]}}</p>
+      <br/>
+      <br/>
+    {%endfor%}
+  </div>
+{% endblock %}

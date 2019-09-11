@@ -1,0 +1,29 @@
+body {
+  margin-top: 70px;
+  background-color: #f1f5f6;
+  font-family: "Overpass", sans-serif;
+}
+
+.companyName {
+  color: #575a5d;
+}
+
+a {
+  color: inherit;
+}
+
+nav {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 9px;
+}
+
+h6 {
+  margin-bottom: 3px;
+}
+
+.town {
+  color: #97999b;
+}
